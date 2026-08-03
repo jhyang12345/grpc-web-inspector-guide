@@ -34,8 +34,14 @@ only for the Inspector.
 
 ## Install the extension
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/grpc-web-developer-tools/kanmilmfkjnoladbbamlclhccicldjaj)
-- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grpc-web-developer-tools/)
+Install gRPC-Web Inspector from the
+[Chrome Web Store](https://chrome.google.com/webstore/detail/grpc-web-developer-tools/kanmilmfkjnoladbbamlclhccicldjaj).
+
+## Test the guide
+
+Run `npm test` for the repository's automated documentation checks, then use
+the [Chrome runtime test matrix](TESTING.md) to verify capture and replay with
+real sample applications and a local RPC backend.
 
 ## License
 
