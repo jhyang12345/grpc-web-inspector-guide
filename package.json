@@ -1,0 +1,9 @@
+{
+  "name": "grpc-web-inspector-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public setup guide and examples for gRPC-Web Inspector",
+  "scripts": {
+    "test": "node scripts/validate-guide.mjs"
+  }
+}
