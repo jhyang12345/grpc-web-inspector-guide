@@ -12,6 +12,7 @@
 ## Export rules
 
 - Use square corners, full bleed, and no surrounding image padding.
+- Keep the store canvas at 1280 × 800 while presenting the inspector in a 620 px right-docked DevTools sidebar.
 - Show only real, current product behavior.
 - Use fictional demo data and local/example endpoints.
 - Keep browser and DevTools chrome legible at store thumbnail size.
@@ -23,4 +24,3 @@ Official guidance:
 - https://developer.chrome.com/docs/webstore/images/
 - https://developer.chrome.com/docs/webstore/cws-dashboard-listing
 - https://developer.chrome.com/docs/webstore/best-listing
-

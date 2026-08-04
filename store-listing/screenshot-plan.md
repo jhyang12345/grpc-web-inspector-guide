@@ -1,6 +1,6 @@
 # Screenshot plan
 
-All screenshots are 1280 × 800 PNGs, full bleed, with square corners. The UI is populated with deterministic fictional data; no credentials, tokens, or production endpoints are shown.
+All screenshots are store-compliant 1280 × 800 PNGs, full bleed, with square corners. Each image shows the inspector at a realistic 620 × 800 right-docked DevTools width beside a fictional 660 × 800 application. The UI is populated with deterministic fictional data; no credentials, tokens, or production endpoints are shown.
 
 ## 01 — Inspect every RPC at a glance
 
@@ -41,4 +41,3 @@ All screenshots are 1280 × 800 PNGs, full bleed, with square corners. The UI is
 - Supporting line: Spot edited replays and complete protobuf values in a polished dark DevTools workspace.
 - UI state: dark theme; edited replay selected; Edited badge and replay provenance visible; default-valued fields visible.
 - Evidence: dark mode, replay provenance, Connect-Web/protobuf-ts default scalar fields.
-

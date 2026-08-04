@@ -17,4 +17,4 @@ Use these files to update the Chrome Web Store listing:
 5. Dark edited replay — Edited badge and replay provenance
 
 The screenshots use deterministic fictional data and `.test` endpoints.
-
+They preserve the required 1280 × 800 upload size while showing the inspector at a realistic 620 px right-docked sidebar width.
