@@ -12,7 +12,7 @@ Use these files to update the Chrome Web Store listing:
 
 1. Overview — inspect request and response JSON
 2. Edit and replay — review JSON before sending
-3. Lifecycle metadata — URLs, duration, TTFM, count, and transport
+3. Response details — complete structured server response
 4. Stream messages — protobuf-ts server-streaming history
 5. Dark edited replay — Edited badge and replay provenance
 

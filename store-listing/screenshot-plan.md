@@ -1,6 +1,6 @@
 # Screenshot plan
 
-All screenshots are store-compliant 1280 × 800 PNGs, full bleed, with square corners. Each image shows the inspector at a realistic 620 × 800 right-docked DevTools width beside a fictional 660 × 800 application. The UI is populated with deterministic fictional data; no credentials, tokens, or production endpoints are shown.
+All screenshots are store-compliant 1280 × 800 PNGs, full bleed, with square corners. Each image shows the inspector at a realistic 620 × 800 right-docked DevTools width beside a neutral 660 × 800 example application. Metadata details remain collapsed so the request and response payloads have more usable space. The UI is populated with deterministic fictional data; no credentials, tokens, or production endpoints are shown.
 
 ## 01 — Inspect every RPC at a glance
 
@@ -18,13 +18,13 @@ All screenshots are store-compliant 1280 × 800 PNGs, full bleed, with square co
 - UI state: request editor open; safety note visible; Format, Reset, Cancel, and Send request controls visible.
 - Evidence: editor state and replay controls from the current product.
 
-## 03 — Diagnose the full request lifecycle
+## 03 — Inspect complete server responses
 
-- File: `screenshots/03-lifecycle-metadata.png`
-- Store caption: **Diagnose the full request lifecycle**
-- Supporting line: See frame and backend URLs, start and completion times, duration, TTFM, and message count.
-- UI state: metadata expanded for a completed server stream.
-- Evidence: current metadata fields, streaming status, and timing values.
+- File: `screenshots/03-response-details.png`
+- Store caption: **Inspect complete server responses**
+- Supporting line: Expand structured response data and review every retained value without leaving DevTools.
+- UI state: completed `SearchTraces` unary call selected; Metadata details collapsed.
+- Evidence: structured response payload, nested trace values, and completed unary call.
 
 ## 04 — Follow server streams message by message
 
